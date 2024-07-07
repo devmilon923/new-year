@@ -227,8 +227,9 @@ section {
 
 .holidays-sale {
   width: 1320px;
-  height: 986.07px;
+  height: 786px;
   position: relative;
+  /* background-color: aliceblue; */
 }
 .top-section {
   display: flex;
@@ -259,3 +260,23 @@ section {
   padding: 0px 120px;
 }
 
+
+.solid-color {
+    background-color: red;
+    width: 100%;
+    height: 229px;
+    position: absolute;
+    top: 77%;
+  }
+  .gBox{
+    width: 674.82px;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+
+  }
+  .p-discount{
+    position: absolute;
+    top: 35%;
+    right: 16%;
+  }
