@@ -82,18 +82,22 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: 68px 120px;
-  background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(./../images/Vectorrr.png);
+  background-image: linear-gradient(
+      90deg,
+      rgb(7, 2, 17),
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url(./../images/Vectorrr.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   border-radius: 16px;
-
 }
-.text-section{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   justify-content: center;
 }
 .text-section > .midnight-tittle {
@@ -103,14 +107,121 @@ section {
 .text-section > .midnight-description {
   font-size: 18px;
   font-family: "Inter";
-
 }
-.midnight-btn button{
-font-size: 20px;
-background-color: transparent;
-color: white;
-font-family: "Inter";
-border: none;
-font-weight: 700;
-
+.midnight-btn button {
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  font-family: "Inter";
+  border: none;
+  font-weight: 700;
 }
+
+/* place sections  */
+.place-section {
+  max-width: 1320px;
+  height: 482px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+
+.place-section span {
+  color: red;
+  font-family: Inter;
+}
+.place-section p {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+}
+.place-section button {
+  padding: 16px 32px 16px 32px;
+  border-radius: 8px;
+  color: white;
+  font-family: Inter;
+  font-weight: 600;
+  background: rgb(255, 0, 0);
+  border: none;
+}
+
+/* coming soon section  */
+.coming-soon {
+  max-width: 1320px;
+  display: flex;
+  gap: 90px;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-1 > h4 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+.flex-1 > h1 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: 0%;
+  margin: 15px 0px;
+}
+.flex-1 > p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+.flex-1 {
+  width: 500px;
+}
+
+.flex-2 {
+  border: 15px solid rgb(255, 0, 0);
+  border-radius: 100%;
+  padding: 30px;
+}
+.flex-3 {
+  width: 500px;
+}
+.flex-2 img {
+  width: 100%;
+  text-align: center;
+}
+
+.flex-3 > h2 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.flex-3 > p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px 0px;
+  letter-spacing: 0%;
+  margin: 15px 0px;
+}
+
+.flex-3 img {
+  width: 140px;
+}
+
+/* holidays sale  */
+
